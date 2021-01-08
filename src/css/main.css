@@ -1,0 +1,120 @@
+body {
+  font-family: sans-serif;
+  font-weight: 100; }
+
+#content {
+  visibility: hidden; }
+
+#card {
+  display: block;
+  position: relative;
+  background-color: #ffffff;
+  width: 300px;
+  height: 600px;
+  margin: 0 auto; }
+
+#card-background {
+  position: absolute;
+  width: 249px;
+  height: 215px;
+  top: 70px;
+  left: 50px; }
+
+#select-player-button {
+  cursor: pointer;
+  display: block;
+  width: 270px;
+  height: 43px;
+  background-color: #eaeaea;
+  margin: 0 auto;
+  margin-top: 15px; }
+  #select-player-button span {
+    color: #000000;
+    position: relative;
+    left: 15px;
+    top: 12px; }
+  #select-player-button img#arrow {
+    position: relative;
+    height: 20px;
+    width: 20px;
+    float: right;
+    margin-right: 30px; }
+  #select-player-button #dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #39003d;
+    width: 270px;
+    margin: 0 auto;
+    margin-top: 20px;
+    z-index: 1; }
+
+#select-player-button:hover #dropdown-content {
+  display: block; }
+  #select-player-button:hover #dropdown-content .dropdown-item {
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin-top: 10px; }
+  #select-player-button:hover #dropdown-content .dropdown-item:hover {
+    color: #ec004f; }
+
+#player-img {
+  position: absolute;
+  width: 150px;
+  height: 209px;
+  top: 85px;
+  left: 15px; }
+
+#crest-container {
+  position: absolute;
+  width: 85px;
+  height: 85px;
+  top: 260px;
+  left: 195px; }
+  #crest-container #crest {
+    max-width: 60px;
+    position: absolute;
+    top: 10px;
+    left: 10px; }
+
+#stats-background {
+  position: absolute;
+  background-color: #ec004f;
+  width: 302px;
+  height: 308px;
+  top: 292px; }
+
+#stats-background p {
+  color: #ffffff;
+  font-size: 20px;
+  max-width: 250px;
+  margin-left: 20px;
+  line-height: 5px; }
+
+#stats-background #player-position {
+  font-size: 18px;
+  line-height: 10px; }
+
+.stat-item:first-child {
+  margin-top: 10px; }
+
+.stat-item {
+  width: 270px;
+  height: 43px;
+  background-color: #eaeaea;
+  margin: 0 auto;
+  margin-top: 2px; }
+  .stat-item span {
+    color: #39003d;
+    position: relative;
+    top: 10px;
+    font-size: 18px; }
+  .stat-item .stat-item-field {
+    float: left;
+    margin-left: 10px; }
+  .stat-item .stat-item-value {
+    float: right;
+    margin-right: 10px;
+    font-weight: bold; }
+

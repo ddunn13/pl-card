@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <link rel="stylesheet" href="css/main.css">
+      <script type="module" src="js/main.js"></script>
+      <title>PL Card</title>
+   </head>
+   <body>
+      <div id="app-container">
+         <div id="card">
+            <div id="select-player-button">
+               <span> Select a player... <img id="arrow" src="/images/down-arrow.png" alt="select player arrow"/></span>
+               <div id="dropdown-content"> </div>
+            </div>
+            <div id="content">
+               <img id="card-background" src="/images/background.png" alt="background image"/>
+               <img id="player-img"/>
+               <div id="stats-background">
+                  <p id="player-name"> </p>
+                  <p id="player-position"> </p>
+                  <div id="stat-item-list">
+                     <div class="stat-item">
+                        <span class="stat-item-field"> Appearances</span>
+                        <span id="stat-appearances" class="stat-item-value"> 0 </span>
+                     </div>
+                     <div class="stat-item">
+                        <span class="stat-item-field"> Goals</span>
+                        <span id="stat-goals" class="stat-item-value"> 0 </span>
+                     </div>
+                     <div class="stat-item">
+                        <span class="stat-item-field"> Assists </span>
+                        <span id="stat-assists" class="stat-item-value"> 0 </span>
+                     </div>
+                     <div class="stat-item">
+                        <span class="stat-item-field"> Goals per match </span>
+                        <span id="stat-goals-per-match" class="stat-item-value"> 0 </span>
+                     </div>
+                     <div class="stat-item">
+                        <span class="stat-item-field"> Passes per minute </span>
+                        <span id="stat-passes" class="stat-item-value"> 0 </span>
+                     </div>
+                  </div>
+               </div>
+               <div id="crest-container">
+                  <img id="crest-background" src="/images/crest-background.png" alt="crest background"/>
+                  <img id="crest"/>
+               </div>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
